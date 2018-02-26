@@ -4,4 +4,4 @@ from flask import Flask
 application constructor. It's used to determine the root path"""
 app = Flask(__name__)
 
-import views
+import controller
